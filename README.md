@@ -13,14 +13,14 @@
    
 1. Если мы вызовем методом login с неправильным логином и паролем, мы получим  ответ в виде json:
 
-  > detail": "No active account found with the given credentials"
+  ``` detail": "No active account found with the given credentials" ```
 
 2.Если мы попробуем обратиться к CRUD методам c невалидными данными, то получаем:
->   authentication credentials were not provided.
+ ``` authentication credentials were not provided. ```
 
 3. Если предоставим токен, но будет не валидный:
 
->  Token is invalid or expired
+ ```  Token is invalid or expired ```
 
 4. Как было предположено по условию, счетчик не должен быть меньше 0. В этом случае, если пользователь попытается сделать счетчик отрицательным, то счетчик всегда будет оставаться нулем, пока пользователь не захочет увеличить счетчик
 
@@ -28,4 +28,6 @@
 
 Перед начало нужно именить на хосте установленные docker и docker-compose:
 
-1. 
+1. ``` git clone git@github.com:AnatolyPoluyaktov/Counter.git ```
+2. ``` docker-compose up -d ```
+3. ``` docker exec -it <container_id>  python manage.py createsuperuser ``` (вводим креды для пользователя)
