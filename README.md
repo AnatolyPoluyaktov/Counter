@@ -31,3 +31,8 @@
 1. ``` git clone git@github.com:AnatolyPoluyaktov/Counter.git ```
 2. ``` docker-compose up -d ```
 3. ``` docker exec -it <container_id>  python manage.py createsuperuser ``` (вводим креды для пользователя)
+
+### Анализ покрытия 
+
+![изображение](https://user-images.githubusercontent.com/41837845/132144500-a8643b67-8052-4605-8510-23a67f2a785f.png)
+
