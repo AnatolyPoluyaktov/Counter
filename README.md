@@ -15,7 +15,7 @@
 
   > detail": "No active account found with the given credentials"
 
-2.Если мы попробуем обратиться к CRUD методам c невалидными данными, то получем:
+2.Если мы попробуем обратиться к CRUD методам c невалидными данными, то получаем:
 >   authentication credentials were not provided.
 
 3. Если предоставим токен, но будет не валидный:
