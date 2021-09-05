@@ -1,11 +1,11 @@
 # Counter 
 
 веб приложение, которое изменяет значения счетчика пользователя от вызова CRUD методов.
-- POST /count - увеличит счетчик на один
-- GET /count- вернет значение
-- DELETE /count - уменьшит счетчик на один
-- POST /login с текеном - вернет refresh и access токен
-- POST /
+- POST /count (с acсess токеном) - увеличит счетчик на один
+- GET /count  (с access токеном) вернет значение текущее значение счетчика
+- DELETE /count (с access токеном) - уменьшит счетчик на один
+- POST /login с  c логином и паролем - вернет refresh и access токен
+- POST /token/refresh/ ( refresh токеном) - вернет новые refresh и access токен
 
 Аутентификация проходит по JWT токену
 
