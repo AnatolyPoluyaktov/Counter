@@ -15,7 +15,7 @@
    
 1. Если мы вызовем методом login с неправильным логином и паролем, мы получим  ответ в виде json:
 
-  ``` detail": "No active account found with the given credentials" ```
+  ``` "No active account found with the given credentials" ```
 
 2.Если мы попробуем обратиться к CRUD методам c невалидными данными, то получаем:
 
