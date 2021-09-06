@@ -4,7 +4,7 @@
 - POST /count (с acсess токеном) - увеличит счетчик на один
 - GET /count  (с access токеном) вернет значение текущее значение счетчика
 - DELETE /count (с access токеном) - уменьшит счетчик на один
-- POST /login с  c логином и паролем - вернет refresh и access токен
+- POST /login   (c логином и паролем) - вернет refresh и access токен
 - POST /token/refresh/ ( refresh токеном) - вернет новые refresh и access токен
 
 Аутентификация проходит по JWT токену
