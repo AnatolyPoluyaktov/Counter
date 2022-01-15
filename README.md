@@ -29,7 +29,7 @@
 
 ### Инструкция по разворачиванию веб сервера
 
-Перед начало нужно именить на хосте установленные docker и docker-compose:
+Перед начало нужно изменить на хосте установленные docker и docker-compose:
 
 1. ``` git clone git@github.com:AnatolyPoluyaktov/Counter.git ```
 2. ``` docker-compose up -d ```
